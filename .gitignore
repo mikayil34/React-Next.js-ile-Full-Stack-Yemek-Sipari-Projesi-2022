@@ -2,15 +2,17 @@
 
 # dependencies
 /new-react-project/node_modules
+/food-ordering/node_modules
 /new-react-project/.pnp
+/food-ordering/.pnp
 .pnp.js
 
 # testing
 /new-react-project/coverage
-
+/food-ordering/coverage
 # production
 /new-react-project/build
-
+/food-ordering/build
 # misc
 .DS_Store
 .env.local
