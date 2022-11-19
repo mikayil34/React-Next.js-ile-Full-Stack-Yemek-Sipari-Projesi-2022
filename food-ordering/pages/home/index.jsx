@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const index = () => {
-  return (
-    <div className="text-red-600 font-dancing text-center text-3xl kaybol">Feane</div>
-  )
-}
+  return <div></div>;
+};
 
-export default index
+export default index;
