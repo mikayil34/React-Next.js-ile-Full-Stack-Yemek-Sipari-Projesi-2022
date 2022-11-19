@@ -1,5 +1,5 @@
 import Logo from "../ui/Logo";
- 
+import { FaUserAlt, FaShoppingCart, FaSearch } from "react-icons/fa";
 const Header = () => {
   return (
     <div className="h-[5.5rem] bg-secondary">
@@ -22,7 +22,18 @@ const Header = () => {
           </ul>
         </nav>
         <div className="flex gap-x-4 items-center">
-          
+          <a href="">
+            <FaUserAlt />
+          </a>
+          <a href="">
+            <FaShoppingCart />
+          </a>
+          <a href="">
+            <FaSearch />
+          </a>
+          <a href="">
+            <button className="btn-primary"> Order Online</button>
+          </a>
         </div>
       </div>
     </div>
