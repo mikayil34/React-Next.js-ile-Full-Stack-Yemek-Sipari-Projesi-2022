@@ -4,24 +4,26 @@ import Title from "./ui/Title";
 
 const Carousel = () => {
   return (
-    <div className="h-[calc(100vh_-_88px)] container mx-auto">
-        <div className="absolute top-0 left-0 w-full h-full">
+    <div className="h-screen w-full container mx-auto -mt-[88px]">
+      <div className="absolute top-0 left-0 w-full h-full">
         <div className="relative h-full w-full">
-        <Image
-          src="/../public/images/hero-bg.jpg"
-          alt=""
-          layout="fill"
-          objectFit="cover"
-        />
-      </div>
+          <Image
+            src="/images/hero-bg.jpg"
+            alt=""
+            layout="fill"
+            objectFit="cover"
+          />
         </div>
-    
-      <div className="relative z-50  text-white top-48 flex flex-col  items-start gap-y-10">
-        <Title className="text-6xl">Fast Food Resturant </Title>
-        <p  className="text-sm w-2/5">
-        Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.
-        </p >
-        <button className="btn-primary"> Order Now</button>
+      </div>
+      <div className="relative text-white top-48 flex flex-col items-start gap-y-10">
+        <Title addClass="text-6xl">Fast Food Restaurant</Title>
+        <p className="text-sm sm:w-2/5 w-full">
+          Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente
+          ad mollitia laborum quam quisquam esse error unde. Tempora ex
+          doloremque, labore, sunt repellat dolore, iste magni quos nihil
+          ducimus libero ipsam.
+        </p>
+        <button className="btn-primary">Order Now</button>
       </div>
     </div>
   );
