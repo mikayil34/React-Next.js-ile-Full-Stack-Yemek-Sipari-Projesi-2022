@@ -1,11 +1,16 @@
 import React from "react";
+import Campaigns from "../../components/Campaigns";
 import Carousel from "../../components/Carousel";
-const index = () => {
+import MenuWrapper from "../../components/product/MenuWrapper";
+
+const Index = () => {
   return (
-    <div className="relative">
+    <div>
       <Carousel />
+      <Campaigns />
+      <MenuWrapper />
     </div>
   );
 };
 
-export default index;
+export default Index;
