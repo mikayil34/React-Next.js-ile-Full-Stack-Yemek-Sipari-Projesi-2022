@@ -32,7 +32,7 @@ const Footer = () => {
             <div className="flex items-center justify-center mt-5 gap-x-2">
               <a
                 href=""
-                className="w-8 h-8 grid place-content-center bg-white text-secondary rounded-full "
+                className="w-8 h-8 grid place-content-center bg-white text-secondary rounded-full hover:w-10 hover:h-10"
               >
                 <i className="fa fa-facebook"></i>
               </a>

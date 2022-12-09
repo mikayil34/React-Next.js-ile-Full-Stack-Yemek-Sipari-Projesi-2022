@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Header from "../components/layout/Header";
-import Home from "./home";
 import Input from "../components/form/Input";
 import Footer from "../components/layout/Footer";
+import Header from "../components/layout/Header";
+import Home from "./home";
 
 export default function Index() {
   return (
@@ -17,9 +17,7 @@ export default function Index() {
           crossOrigin="true"
         />
       </Head>
-      <Header />
-      <Home /> 
-      <Footer />
+      <Home />
     </div>
   );
 }
