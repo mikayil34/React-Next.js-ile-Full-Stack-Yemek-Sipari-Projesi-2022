@@ -3,3 +3,15 @@ npx kurmak için yan global add npx
 npx create-react-app hello-react
 cd hello-react
 npm start
+
+rafce 
+
+Food-Ordering
+
+food-ordering
+
+npx create-next-app@latest food-ordering --typescript --eslint
+cd food-ordering
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -postcss
